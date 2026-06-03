@@ -1,0 +1,19 @@
+when all the yaml files that is 
+namespace.yaml
+deployment.yaml
+service.yaml
+configmap.yaml
+secret.yaml
+are applied together then k8s reads every yaml file in that location and creates r updates the resources automatically 
+k8s works continuously to make the cluster match the desired state described in the yaml files
+
+  
+organized yaml structure means simply the infrastructure of application given r written in the form of code .yaml helps k8s make the deployment faster and scaling automation easy
+
+resources got created
+one k8s cluster
+2 pods
+2 nodes
+dev namespace
+nginx deployment
+service port 80
