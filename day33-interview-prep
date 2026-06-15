@@ -1,0 +1,49 @@
+what is devops
+  devops is an integration b/w (software) development activity & IT operations. It has a set of practices,tools,and a culture that helps to deliver software faster,
+  more reliably,and with better collaboration.
+    
+what is ci/cd
+  ci stands for continuous integration,here the code is downloaded and build into an artifact by developers
+  cd stands for continuous deployment/delivery after the code is build the artifact is deployed into qa server to undergo the process of testing by selenium testers and
+  later it was deployed into the prod environment 
+  this ci/cd is fully an automated proces  which reduces the errors ,improves consistency in delivery ,more reliable
+    
+difference b/w git & github
+
+                     git                                                                    github
+
+  it works on offline                                                    it works online
+  it contains single meachine data                                       it contains different types of data from different sources/meachines
+  used as a local repository                                             used as a remote repository
+  cannot provide collaboration among teams                               provides collaboration among teams
+  popularly used to connect to servers of ec2                            popularly used to project management,enhancing team collaboration,issue tracking
+  git is a vcs,tracks & manages code                                     github is a cloud based platform that hosts git repositories
+  commands git pull,git add,git commit                                   issues,actions,code review,collaborations
+
+what is docker
+    docker is a containerization tool that packages an app and its dependencies into containers, enabling consistent deployment across different environments
+    docker is a platform used to develop,package,and run application in the form of containers
+
+differ b/w docker & k8s
+      
+             Docker                                                            Kubernetes (K8s)                                          
+ -------------------------------------------------------------  --------------------------------------------------------- 
+ A containerization platform.                                    a container orchestration platform.                   
+ Creates and runs containers.                                    Manages and coordinates multiple containers.              
+ Suitable for small applications and development environments.   Suitable for large-scale production environments.         
+ Focuses on packaging applications.                              Focuses on deploying, scaling, and managing applications. 
+ command docker ps                                               command kubectl apply
+
+what role does jenkins play in your project
+    jenkins plays a major role in the project as a ci/cd automation tool ,it is the platform  which enables the chance to create pipelines that automate the software 
+    delivery process.jenkins automates all the 5 stages of ci/cd from continuous integration to continuous delivery/deployment which reduces manual errors,faster
+    software deliveries.
+      
+How does your GitHub → Jenkins → Docker deployment flow work?
+  add docker file and index.html files to github, go to jenkins place the repository url from github at scm of jenkins after that it is build by depending the
+  instructions given in build steps. here in build steps go to execute shell and enter command
+  docker build -t mynginx 
+  docker run -d -p 8080:80 mynginx
+  the first command builds the image from docker file and the second command successfully runs the image on the given port numbers with given name when the job
+  is saved and build
+
