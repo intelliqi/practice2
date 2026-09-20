@@ -1,0 +1,34 @@
+INTRODUCTION 
+
+Good morning sir i am nikitha kancharla had completed my bachelors in the stream of civil engineering after completion of my 
+graduation i was dawn to a special interest knowing how devops combines development and integration operations together for faster and more 
+reliable software delivery to the client . As devops contains a wide variety of tools like jenkins, docker ,k8s,git ,ansible
+etc which strengthened my interest in this field and build my technical skills continuously. During my academics i am an active participent in
+all cultural events and co circular activities which helped me build my team work,leader ship and communication skills .As a fresher i am eager 
+to apply my knowledge and learn from the experienced professionals & contribute to the success of the organisation .Thank u for giving me this opportunity.
+
+Why did you move from Civil Engineering toward DevOps?
+
+I started my career in civil engineering, but over time i developed a strong interest in technology and software. I found devops more aligned
+with my interests and decided to build my career in this field.
+
+git clone 
+
+clone means carbon copy this is used to download the code entirely from remote git repository r github to the local repository at a time,mostly
+git clone command is used once at the beginning.
+
+docker image - is a combination of binaries and libraries that r required to build a application
+docker container - is a light weight self contained portable units that package an application configurations and its dependecies. when the image 
+runs successfully then it is called as docker container
+
+Why is Kubernetes needed if Docker already exists?
+
+docker is jzt containeraization platform which means it just creates & runs containers cannot manage,scale,automate them.so it is useful for small scale industries
+k8s is a container orchistration tool which can manage multiple containers at a time,it maintains a good communication b/w the multiple containers, this encourages
+the large scale production environments.
+
+Tell me about a difficult problem you faced during your project and how you solved it.
+
+webhook issue - when the ip address of instance changes it should be updated in webhooks
+storage issue - storage should be cleared ,storage consumption should be checked r should be continued on new instance
+aws security group issue - port numbers will be engaged at some times so it should be checked & resolved in security groups
