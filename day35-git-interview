@@ -1,0 +1,29 @@
+1) Git - is a version controlling system r source code management 
+  vcs means which accepts the code coming from all the sources & integrating the code to make it as a single project 
+vcs is of 2 types centralised vcs and distributed vcs (GIT) , it can work offline
+
+2) GITHUB - is an open source version controlling platform for managing git repositories and collaboration among teams,
+  by providing collaborative platform with features like pm,issue tracking, code reviews & enhancing team collaboration.
+
+3) Git clone - clone means carbon copy
+  git clone is used to download the entire code from the git hub r remote repository to local repository
+  mostly used once
+
+4) Git pull - pull command downloads only the updated code from the rr to lr
+  used multiple times 
+  this command downloads the code directly on the current working branch
+
+5) Git fetch - fetch command downloads only the updated code from rr into a separate branch of lr
+  this provides a chance to verify the downloaded code, later it can be merged with the required branch
+
+6) git remote - is  a connection to a git repository that is stored somewhere usually like github,gitlab
+    git remote -v
+
+7) origin - is simply a  name (alias) for a remote git repository
+
+8) working directory - where the code gets created ,files r called untracked files
+   staging area - the files r code get implemented by version controlling, files r called indexed files
+   local repository - place where the files get preserved r pushed into rr , files r called committed files
+
+9) git push - when the git push command is used the local commits get uploaded into the rr r github
+     
