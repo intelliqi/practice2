@@ -1,0 +1,60 @@
+what is terraform?
+  Terraform is an infrastructure as code tool used for managing & provisioning of infrastructure such as ec2 instances,s3 buckets & other cloud resources
+  using code instead of manual processes.
+
+why do devops engineers use terraform ?
+  DevOps engineers use Terraform mainly to automate and manage infrastructure.
+uses :
+Automation – creates AWS/Azure resources automatically.
+
+Infrastructure as Code (IaC) – infrastructure is written in configuration files.
+
+Consistency – creates the same infrastructure every time.
+
+Easy scaling – quickly create or remove multiple resources.
+
+Version control – Terraform files can be stored in Git and tracked.
+
+Less manual work and fewer errors.
+
+What is Infrastructure as Code?
+  it is the practice of managing and provisioning of infrastructure using code instead  of manual process
+  IAC lets you to create templates in json r yaml format mentioning the aws resources & configurations that r required for ur application
+
+What is a .tf file?
+  .tf is the file extension for terraform configuration files.
+  it contains the configuration (code r instructions) of the infrastructure that terraform needs to manage such as ec2 instances,vpcs.
+
+What is a Terraform provider?
+  a terraform provider is a plugin that acts as a bridge r communication provider b/w terraform & an external platform such as aws,azure r k8s.
+
+What is a resource?
+  a terraform resource is the actual thing that you want terraform  to create r manage.
+  example : if u want to create an ec2 server on aws,the ec2 server is the resource.
+  provider -> connects terraform to aws ,azure etc.
+  resource -> the thing u want to create r manage.
+
+What is terraform init?
+  terraform init is the first command we usually run in a Terraform project.
+  terraform init prepares the Terraform project and downloads the required providers and other dependencies.
+
+What is terraform plan?
+  terraform plan shows u what changes terraform is going to make before actually making them.
+  it does not create r change the infrastructure. it only shows what terraform plans to do.
+
+What is terraform apply?
+  terraform apply actually creates r changes the infrastructure acc. to  your terraform configuration.
+  it is used to apply the changes defined in the terraform configuration & create ,update,r delete the required infrastructure resources.
+  
+terraform init
+       ↓
+terraform plan
+       ↓
+terraform apply
+
+  init → Prepare the project
+  plan → Show what Terraform will do
+  apply → Actually create/change the resources
+  
+  
+  
