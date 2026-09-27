@@ -45,7 +45,11 @@ What is terraform plan?
 What is terraform apply?
   terraform apply actually creates r changes the infrastructure acc. to  your terraform configuration.
   it is used to apply the changes defined in the terraform configuration & create ,update,r delete the required infrastructure resources.
-  
+
+What does terraform destroy do?
+ terraform destroy removes the infrastructure /resources that terraform previously created.
+ it asks for confirmation & then delete those resources according to the terraform configuration/state.
+
 terraform init
        ↓
 terraform plan
@@ -55,6 +59,53 @@ terraform apply
   init → Prepare the project
   plan → Show what Terraform will do
   apply → Actually create/change the resources
+
+Terraform vs AWS Console?
+What does terraform destroy do
+
+What is terraform destroy?
+terraform destroy removes the infrastructure/resources that Terraform previously created.
+
+In simple words:
+
+Terraform destroy = Delete the resources created by Terraform.
+
+For example, if Terraform created:
+
+EC2 instance
+
+Security group
+
+S3 bucket
+
+Running:
+
+terraform destroy
+will ask for confirmation and then delete those resources according to the Terraform configuration/state.
+
+Interview answer:
+terraform destroy is used to delete the infrastructure resources managed by Terraform. It removes the resources defined in the Terraform state after asking for confirmation.
+
+Easy to remember:
+
+terraform init → Initialize
+
+terraform plan → Preview changes
+
+terraform apply → Create/update resources
+
+terraform destroy → Delete resources
+
+
+Terraform versus AWS console?
+
+                   Terraform	                                                                            AWS Console
+Uses code to create resources	                                                                        Uses a web interface
+Infrastructure can be automated                                                                     	Mostly manual
+Easy to repeat the same setup                                                                        	You need to repeat the steps manually
+Infrastructure changes can be tracked in Git                                                        	Changes are not naturally stored as code
+Good for managing many resources                                                                    	Good for quickly creating or checking resources
+Uses .tf files                                                                                      	Uses buttons, forms, and menus
   
   
   
