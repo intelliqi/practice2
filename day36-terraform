@@ -60,7 +60,6 @@ terraform apply
   plan → Show what Terraform will do
   apply → Actually create/change the resources
 
-Terraform vs AWS Console?
 What does terraform destroy do
 
 What is terraform destroy?
