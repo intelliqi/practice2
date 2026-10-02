@@ -64,37 +64,7 @@ What does terraform destroy do
 
 What is terraform destroy?
 terraform destroy removes the infrastructure/resources that Terraform previously created.
-
-In simple words:
-
 Terraform destroy = Delete the resources created by Terraform.
-
-For example, if Terraform created:
-
-EC2 instance
-
-Security group
-
-S3 bucket
-
-Running:
-
-terraform destroy
-will ask for confirmation and then delete those resources according to the Terraform configuration/state.
-
-Interview answer:
-terraform destroy is used to delete the infrastructure resources managed by Terraform. It removes the resources defined in the Terraform state after asking for confirmation.
-
-Easy to remember:
-
-terraform init → Initialize
-
-terraform plan → Preview changes
-
-terraform apply → Create/update resources
-
-terraform destroy → Delete resources
-
 
 Terraform versus AWS console?
 
